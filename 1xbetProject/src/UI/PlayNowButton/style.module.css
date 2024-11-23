@@ -1,0 +1,39 @@
+.playNow {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #c0392b;
+  }
+  
+  .button:active {
+    background-color: #96281b;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .button {
+      font-size: 1.2em;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button {
+      font-size: 1em;
+      padding: 8px 16px;
+    }
+  }
+  

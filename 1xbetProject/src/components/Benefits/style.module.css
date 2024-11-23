@@ -1,0 +1,50 @@
+.benefits {
+    padding: 20px;
+    background-color: #34495e;
+    color: #ecf0f1;
+  }
+  
+  .benefits h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+    background: #2ecc71;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+
+  @media (max-width: 768px) {
+    .benefits h2 {
+      font-size: 1.8em;
+    }
+  
+    .benefits li {
+      font-size: 1em;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .benefits h2 {
+      font-size: 1.5em;
+    }
+  
+    .benefits li {
+      font-size: 0.9em;
+      padding: 6px;
+    }
+  }
+  

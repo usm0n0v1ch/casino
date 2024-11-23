@@ -1,0 +1,79 @@
+.depositForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .depositForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .depositForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+  
+  .depositForm input,
+  .depositForm select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .depositForm button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .depositForm button:hover {
+    background-color: #d35400;
+  }
+  
+
+  @media (max-width: 768px) {
+    .depositForm {
+      padding: 15px;
+    }
+  
+    .depositForm h2 {
+      font-size: 1.5em;
+    }
+  
+    .depositForm input,
+    .depositForm select {
+      padding: 8px;
+      font-size: 0.9em;
+    }
+  
+    .depositForm button {
+      font-size: 1em;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .depositForm {
+      padding: 10px;
+    }
+  
+    .depositForm h2 {
+      font-size: 1.2em;
+    }
+  }
+  

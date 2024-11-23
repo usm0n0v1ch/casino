@@ -1,0 +1,36 @@
+.homePage {
+    font-family: "Arial", sans-serif;
+    background-color: #1d1d1d;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .homePage > * {
+    margin-bottom: 20px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .homePage {
+      padding: 15px;
+    }
+  
+    .homePage > * {
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .homePage {
+      padding: 10px;
+    }
+  
+    .homePage > * {
+      margin-bottom: 10px;
+    }
+  }
+  
